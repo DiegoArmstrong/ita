@@ -28,6 +28,6 @@ Calling C code, linking vendor SDKs, and importing C header files must require z
 
 ita must be obvious to read. When reading ita, you should be able to understand exactly what it physically represents.
 
-# Protocol First, Hardware Agnostic Standard Library
+## Protocol First, Hardware Agnostic Standard Library
 
 The standard library ships with universal, zero-allocation interfaces for buses (`SPI`, `I2C`, `UART`, `CAN`, `TCP/UDP`), framing (`COBS`, `SLIP`, `CRC`), and deterministic buffers (`RingBuffer`); completely decoupled from specific chip vendors or OS platforms.
