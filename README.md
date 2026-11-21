@@ -24,10 +24,6 @@ Every external I/O operation can fail or hang, so the language refuses to compil
 
 Calling C code, linking vendor SDKs, and importing C header files must require zero wrapper boilerplate or FFI translation layers.
 
-## State Machines Over Threads
-
-Concurrency is modeled through explicit state machines, event queues, and hardware interrupts; never shared-memory threads or locks.
-
 ## Boring, Readable, No-Magic Syntax
 
 ita must be obvious to read. When reading ita, you should be able to understand exactly what it physically represents.
